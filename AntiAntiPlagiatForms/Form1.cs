@@ -19,8 +19,17 @@ namespace AntiAntiPlagiatForms
             
             string txt = richTextBox2.Text;
             string repls;
-            if (checkBox3.Checked) repls = @"{\colortbl;\red255\green255\blue255;} {\fs1\cf1 " + '/' + "}";
-            else repls = textBox1.Text;
+            string schar;
+            if (checkBox3.Checked)
+            {
+                schar = "/";
+                repls = @"{\colortbl;\red255\green255\blue255;}{\fs1\cf1" + schar + "}";
+            }
+            else
+            {
+                repls = textBox1.Text;
+                schar = textBox1.Text;
+            }
 
                 List<char> a = new List<char>();
                 a.AddRange(txt.ToCharArray());
@@ -30,10 +39,10 @@ namespace AntiAntiPlagiatForms
                     Debug.Print("Буква "+a[z]+" "+z);
                     if (a[z] != ' ' && a[z]!='\n')
                         {
-                            if (checkBox1.Checked == true && a[z] != textBox1.Text[0])
+                            if (checkBox1.Checked == true && a[z] != schar[0])
                             {
                                 var n = rnd.Next(2);
-                                if (n == 1)a.Insert(z+1, textBox1.Text.ToCharArray()[0]);
+                                if (n == 1)a.Insert(z+1, schar.ToCharArray()[0]);
                             }
                             if (checkBox2.Checked == true)
                             {
@@ -56,7 +65,7 @@ namespace AntiAntiPlagiatForms
                     }
                 txt = new string(a.ToArray());
             richTextBox2.Text = txt;
-            richTextBox2.Rtf = richTextBox2.Rtf.Replace(textBox1.Text, repls);
+            richTextBox2.Rtf = richTextBox2.Rtf.Replace(schar, repls);
                 MessageBox.Show("Операция была успешно выполнена.");
         }
 
