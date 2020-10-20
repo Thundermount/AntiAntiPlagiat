@@ -1,0 +1,10 @@
+D:\Documents\Visual Studio 2017\Projects\AntiAntiPlagiatForms\AntiAntiPlagiatForms\bin\Debug\AntiAntiPlagiatForms.exe.config
+D:\Documents\Visual Studio 2017\Projects\AntiAntiPlagiatForms\AntiAntiPlagiatForms\bin\Debug\AntiAntiPlagiatForms.exe
+D:\Documents\Visual Studio 2017\Projects\AntiAntiPlagiatForms\AntiAntiPlagiatForms\bin\Debug\AntiAntiPlagiatForms.pdb
+D:\Documents\Visual Studio 2017\Projects\AntiAntiPlagiatForms\AntiAntiPlagiatForms\obj\Debug\AntiAntiPlagiatForms.csprojResolveAssemblyReference.cache
+D:\Documents\Visual Studio 2017\Projects\AntiAntiPlagiatForms\AntiAntiPlagiatForms\obj\Debug\AntiAntiPlagiatForms.Form1.resources
+D:\Documents\Visual Studio 2017\Projects\AntiAntiPlagiatForms\AntiAntiPlagiatForms\obj\Debug\AntiAntiPlagiatForms.Properties.Resources.resources
+D:\Documents\Visual Studio 2017\Projects\AntiAntiPlagiatForms\AntiAntiPlagiatForms\obj\Debug\AntiAntiPlagiatForms.csproj.GenerateResource.Cache
+D:\Documents\Visual Studio 2017\Projects\AntiAntiPlagiatForms\AntiAntiPlagiatForms\obj\Debug\AntiAntiPlagiatForms.exe
+D:\Documents\Visual Studio 2017\Projects\AntiAntiPlagiatForms\AntiAntiPlagiatForms\obj\Debug\AntiAntiPlagiatForms.pdb
+D:\Documents\Visual Studio 2017\Projects\AntiAntiPlagiatForms\AntiAntiPlagiatForms\obj\Debug\AntiAntiPlagiatForms.HelpForm.resources
